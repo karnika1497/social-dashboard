@@ -1,0 +1,247 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+/* Add Custom CSS Below this line */
+.navbar-default {
+  background: #4267b2;
+  height: 42px;
+}
+header {
+  background-color: #4267b2;
+  height: 30px;
+}
+/*------------------ Grid-CSS -------------------*/
+.container {
+  
+  padding: 0;
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#main, #menu, #sidebar {
+  height: 550px;
+  background-color: #e9ebee;
+}
+.col-md-6 {
+  padding: 0;
+}
+#left-col-3 {
+  padding-left: 0;
+}
+#right-col-3 {
+  padding-right: 0;
+}
+#main, #sidebar {
+  overflow: auto;
+}
+#main::-webkit-scrollbar {
+  display: none;
+}
+#sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+/*-----------------navbar css-------------------*/
+
+.navbar-default .navbar-brand {
+  color: white !important;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+  color: white;
+  background-color: transparent;
+  font-size: 15px;
+  position: relative;
+  top: -7px;
+}
+.btn {
+  display: inline-block;
+  padding: 4.5px 12px 5px 12px;
+  margin-bottom: 3px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  margin-left: -4px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background-color: #4160A2;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  top: 3px;
+}
+.navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: #4160A2;
+  height: 48px;
+}
+.navbar-right {
+  position: relative;
+  top: 10px;
+}
+/*----------------------- panel css ------------------------*/
+.panel-body .glyphicon {
+  margin-left: 10px;
+  margin-right: 4px;
+}
+.panel-body .video-post {
+  margin: 15px;
+}
+.text-post {
+  margin: 15px;
+}
+.image-post {
+  margin: 15px;
+}
+#Comment {
+  width: 90%;
+  border: none;
+  padding: 5px;
+  
+}
+.panel-heading .panel-title>a {
+  color: #365899;
+}
+.panel-heading .glyphicon {
+  margin-left: 10px;
+  margin-right: 4px;
+}
+#create_post {
+  width: 100%;
+  height: 45px;
+  border: none;
+  margin: 0;
+  font-size: 18px;
+}
+.panel-body {
+  padding: 0;
+}
+.panel-footer .panel_footer_content {
+  padding: 5px 10px 5px 10px;
+  border: transparent;
+  border-radius: 10px;
+  background: #ddd;
+}
+.fa-picture-o {
+  color: #009933;
+}
+.fa-smile-o {
+  color: #da2;
+}
+.side-menu {
+  margin-left: 20px;
+}
+.badge {
+  background: transparent;
+  color: #888;
+  padding-left: 100px;
+  font-size: 14px;
+}
+
+/*li,a
+{
+  display: inline;
+}*/
+
+#pro-image {
+  display: inline;
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+}
+.cmmnt {
+  margin: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 1px;
+}
+.list-group-item.active:focus, .list-group-item.active:hover, .list-group-item.active {
+  color: #2681B2;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  margin-right: 10px;
+}
+.list-group-item-text {
+  color: #666 !important;
+}
+.list-group-item-heading:hover {
+  text-decoration: underline;
+}
+
+/*#top,
+ {
+  background: #fff;
+  margin-right: 10px;
+ }*/
+
+.sug-page {
+  background: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+#tab {
+  background: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+#Profile_name
+{
+  display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    top: 3px;
+}
+.list-heading {
+  padding: 20px 15px 0 30px;
+  font-size: 17px;
+}
+#side_menu_content {
+  color: black;
+  text-decoration: none;
+  display: inline;
+}
