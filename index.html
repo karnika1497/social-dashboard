@@ -17,11 +17,12 @@
 </head>
 <body>
   <div class="container">
-    <nav class="navbar navbar-default">
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Friendly</a>
+          <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#"><img src="fb_logo.png" id="fb_logo"></a>
         </div><!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           
@@ -30,6 +31,7 @@
               <input class="form-control" placeholder="Search Friendly" type="text">
             </div><button class="btn btn-default glyphicon glyphicon-search" id="button1" type="submit"></button>
           </form>
+          <!-- ########################## Nav Right #########################-->
           <ul class="nav navbar-nav navbar-right">
             <li>
               <img alt="Responsive image" class="img-responsive" id="pro-image" src="k.jpg" style="margin-right: 0; width: 30px;height: 30px">
@@ -42,13 +44,13 @@
               <a href="#">Find Friends</a>
             </li>
             <li>
-              <a class="glyphicon glyphicon-user" href="#"></a>
+              <a href="#"><span aria-hidden="true" class="glyphicon glyphicon-user navicon"></a>
             </li>
             <li>
-              <a class="glyphicon glyphicon-envelope" href="#"></a>
+              <a href="#"><span aria-hidden="true" class="glyphicon glyphicon-envelope navicon"></a>
             </li>
             <li>
-              <a class="glyphicon glyphicon-globe" href="#"></a>
+              <a href="#"><span aria-hidden="true" class="glyphicon glyphicon-globe navicon"></a>
             </li>
             <li class="dropdown">
               <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"><span class="caret"></span></a>
@@ -79,7 +81,7 @@
         </div>
       </div>
     </nav>
-    <!--###################################### GRID STARTED ###############################-->
+    </header>    <!--###################################### GRID STARTED ###############################-->
     <div class="container-fluid" id="wrapper">
       <div class="row">
         <div class="col-md-3 hidden-xs col-sm-4" id="left-col-3">
@@ -287,6 +289,107 @@
                 </div>
               </div>
             </div>
+            <!-- ############################ Album Post #################################-->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div style="display: table-cell; vertical-align: top"><img alt="Responsive image" class="img-responsive" id="pro-image" src="iil.jpg"></div>
+                <div style="display: table-cell;">
+                  <h3 class="panel-title"><a href="#">Incredible India</a></h3>
+                  <div>
+                    <h3 class="panel-title"><small>20 June at 10:15</small></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <div>
+                  <!-- ######## Album code 
+                  ##### -->
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin: 15px;" >
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner img_div_cont">
+    <div class="item active ">
+      <img alt="Responsive image" class="img-responsive i1" src="inc_India.jpg">
+    </div>
+
+    <div class="item ">
+      <img alt="Responsive image" class="img-responsive i1" src="inc_India_jk.jpg">
+    </div>
+
+    <div class="item ">
+      <img alt="Responsive image" class="img-responsive i1" src="inc_place_India.jpg">
+    </div>
+
+    <div class="item ">
+      <img alt="Responsive image" class="img-responsive i1" src="inc_India_leh.jpg" >
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                  <!-- ############# p-->
+
+                </div><span aria-hidden="true" class="glyphicon glyphicon-thumbs-up" style="color:#365899">Like</span> <span aria-hidden="true" class="glyphicon glyphicon-comment">Comment</span>
+              </div>
+              <div class="panel-footer">
+              <a href="#" style="color: blue;">view previous comments</a>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#"><img alt="..." class="media-object" src="http://via.placeholder.com/32x32"></a>
+                  </div>
+                  <div class="media-body">
+                    <p class="cmmnt"><span><a href="#">Hitashi</a></span> awesome destinations</p>
+                    <div>
+                      <small><span><a href="#">Like</a></span> <span><a href="#">&nbsp Comment</a></span></small>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#"><img alt="..." class="media-object" src="http://via.placeholder.com/32x32"></a>
+                  </div>
+                  <div class="media-body">
+                    <p class="cmmnt"><span><a href="#">Amul</a></span> Proud to be an Indian</p>
+                    <div>
+                      <small><span><a href="#">Like</a></span> <span><a href="#">&nbsp Comment</a></span></small>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#"><img alt="..." class="media-object" src="http://via.placeholder.com/32x32"></a>
+                  </div>
+                  <div class="media-body">
+                    <p class="cmmnt"><span><a href="#">Jatin</a></span> This is my country!!</p>
+                    <div>
+                      <small><span><a href="#">Like</a></span> <span><a href="#">&nbsp Comment</a></span></small>
+                    </div>
+                    <p></p>
+                  </div>
+                </div>
+                <div>
+                  <img alt="Responsive image" class="img-responsive" id="pro-image" src="k.jpg" style=" margin-right:5px;width: 30px;height: 30px">
+                  <input id="Comment" placeholder="Add Comment..." type="text-post">
+                </div>
+              </div>
+            </div>
             <!--###################################### VIDEO_POST ###############################-->
             <div class="panel panel-default">
               <div class="panel-heading">
@@ -325,7 +428,8 @@
               </div>
             </div>
           </div>
-        </div><!--########################################## SIDEBAR ############################-->
+        </div>
+        <!--########################################## SIDEBAR ############################-->
         <div class="col-md-3 hidden-xs hidden-sm" id="right-col-3">
           <div id="sidebar">
             <div id="tab">
@@ -416,6 +520,7 @@
       </div>
     </div>
     <!--################################### NAV PILLS HERE ################################-->
+    <footer>
     <ul class="nav nav-pills" style="float:right">
       <li role="presentation">
         <a href="#">About Us</a>
@@ -436,6 +541,7 @@
         <a href="#">Ad Choices</a>
       </li>
     </ul>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
     </script> <!-- Include all compiled plugins (below), or include individual files as needed -->

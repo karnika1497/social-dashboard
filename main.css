@@ -11,9 +11,12 @@ html, body {
   background: #4267b2;
   height: 42px;
 }
-header {
-  background-color: #4267b2;
-  height: 30px;
+@media (max-width: 550px)
+{
+  .img_div_cont
+  {
+    height: 165px;
+  }
 }
 /*------------------ Grid-CSS -------------------*/
 .container {
@@ -46,8 +49,24 @@ header {
 #sidebar::-webkit-scrollbar {
   display: none;
 }
+header
+{
+  height: 42px;
+}
 
 /*-----------------navbar css-------------------*/
+#fb_logo
+{
+  width:45px;
+  height: 45px;
+  position: relative;
+  top: -15px;
+  left: 5px;
+}
+.navicon
+{
+  font-size: 20px;
+}
 
 .navbar-default .navbar-brand {
   color: white !important;
@@ -128,6 +147,15 @@ header {
 }
 .image-post {
   margin: 15px;
+}
+.img_div_cont
+{
+  height: 277px;
+}
+.i1
+{
+  width: 100%;
+  height:100%;
 }
 #Comment {
   width: 90%;
