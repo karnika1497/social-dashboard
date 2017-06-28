@@ -45,7 +45,7 @@ html, body {
 }
 header
 {
-  height: 42px;
+  height: 42px !important;
 }
 
 /*-----------------navbar css-------------------*/
@@ -157,6 +157,11 @@ header
 {
   height: 277px;
 }
+#differentPost
+{
+  margin:10px;
+  border: 1px solid #bbb;
+}
 .i1
 {
   width: 100%;
@@ -167,6 +172,10 @@ header
   border: none;
   padding: 5px;
   
+}
+.cmntTime
+{
+  color: #777;
 }
 .panel-heading .panel-title>a {
   color: #365899;
